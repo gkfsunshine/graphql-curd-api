@@ -1,0 +1,15 @@
+{
+    "name": "graph_curd/api",
+    "description": "前端驱动思想编代码",
+    "type": "library",
+    "require": {
+    },
+    "license": "mg",
+    "authors": [
+        {
+            "name": "gkfsundhow",
+            "email": "251244372@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
