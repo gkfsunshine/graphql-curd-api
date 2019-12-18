@@ -1,15 +1,14 @@
 {
-    "name": "graph-curd/api",
-    "description": "前端驱动思想编代码",
+    "name": "graphql-curd/api",
+    "description": "前端驱动后台思想编程",
     "type": "library",
-    "require": {
-    },
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "Graph\\Curd\\": "src/"
         }
     },
-    "license": "proprietary",
+    "require": {},
     "authors": [
         {
             "name": "gkfsunshine",
