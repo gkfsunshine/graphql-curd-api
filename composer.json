@@ -1,5 +1,5 @@
 {
-    "name": "graph_curd/api",
+    "name": "graph-curd/api",
     "description": "前端驱动思想编代码",
     "type": "library",
     "require": {
