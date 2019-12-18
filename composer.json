@@ -4,12 +4,16 @@
     "type": "library",
     "require": {
     },
-    "license": "mg",
+    "autoload": {
+        "psr-4": {
+            "Graph\\Curd\\": "src/"
+        }
+    },
+    "license": "proprietary",
     "authors": [
         {
-            "name": "gkfsundhow",
+            "name": "gkfsunshine",
             "email": "251244372@qq.com"
         }
-    ],
-    "minimum-stability": "dev"
+    ]
 }
