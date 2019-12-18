@@ -1,11 +1,11 @@
 <?php
-namespace App\Graph\Encryption;
+namespace Graph\Curd\Encryption;
 
 /**
  * 已经 测试没有问题  满足多数据请求  特殊符号
  *
  * Class Encrypt_v3
- * @package App\Graph\Encryption
+ * @package Graph\Curd\Encryption
  */
 class Encrypt_v3
 {

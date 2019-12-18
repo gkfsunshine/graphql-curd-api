@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace App\Graph\Grid\Filter;
+namespace Graph\Curd\Grid\Filter;
 
-use App\Graph\Exceptions\GridException;
-use App\Graph\Queries\GridModel;
+use Graph\Curd\Exceptions\GridException;
+use Graph\Curd\Queries\GridModel;
 use Illuminate\Support\Facades\Schema;
 
 abstract class  AbstractFilter

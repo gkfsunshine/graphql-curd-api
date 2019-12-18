@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace App\Graph\Concerns;
+namespace Graph\Curd\Concerns;
 
-use App\Graph\Grid\Filter\Filter;
+use Graph\Curd\Grid\Filter\Filter;
 
 trait HasFilter
 {

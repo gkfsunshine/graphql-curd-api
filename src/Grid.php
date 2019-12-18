@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace App\Graph;
+namespace Graph\Curd;
 
-use App\Graph\Concerns\HasFilter;
-use App\Graph\Grid\Filter\Filter;
-use App\Graph\Helpers\Response;
-use App\Graph\Queries\QuickModel;
+use Graph\Curd\Concerns\HasFilter;
+use Graph\Curd\Grid\Filter\Filter;
+use Graph\Curd\Helpers\Response;
+use Graph\Curd\Queries\QuickModel;
 
 class Grid
 {

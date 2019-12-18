@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace App\Graph;
+namespace Graph\Curd;
 
-use App\Graph\Encryption\Encrypt_v3;
+use Graph\Curd\Encryption\Encrypt_v3;
 
 trait HasResourceActions
 {

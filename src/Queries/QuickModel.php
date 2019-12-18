@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace App\Graph\Queries;
+namespace Graph\Curd\Queries;
 
-use App\Graph\Exceptions\GridException;
+use Graph\Curd\Exceptions\GridException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Collection;
@@ -30,7 +30,7 @@ class QuickModel
      */
     public function getGridModel()
     {
-        return new \App\Graph\Queries\GridModel($this->builder,$this->originalModel,$this);
+        return new \Graph\Curd\Queries\GridModel($this->builder,$this->originalModel,$this);
     }
 
     public function getGridRelation()

@@ -1,7 +1,7 @@
 <?php
-namespace App\Graph;
+namespace Graph\Curd;
 
-use App\Graph\Queries\QuickModel;
+use Graph\Curd\Queries\QuickModel;
 
 class Show
 {

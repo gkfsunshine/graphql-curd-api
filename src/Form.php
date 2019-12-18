@@ -1,11 +1,11 @@
 <?php
-namespace App\Graph;
+namespace Graph\Curd;
 
-use App\Graph\Concerns\HasForm;
-use App\Graph\Exceptions\FormException;
-use App\Graph\Exceptions\GridException;
-use App\Graph\Helpers\Request;
-use App\Graph\Queries\QuickModel;
+use Graph\Curd\Concerns\HasForm;
+use Graph\Curd\Exceptions\FormException;
+use Graph\Curd\Exceptions\GridException;
+use Graph\Curd\Helpers\Request;
+use Graph\Curd\Queries\QuickModel;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;

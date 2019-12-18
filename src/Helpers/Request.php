@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace App\Graph\Helpers;
+namespace Graph\Curd\Helpers;
 
 /**
  * Class Request
- * @package App\Graph\Helpers
+ * @package Graph\Curd\Helpers
  */
 class Request
 {

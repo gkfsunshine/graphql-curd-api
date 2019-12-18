@@ -1,5 +1,5 @@
 <?php
-namespace App\Graph\Encryption;
+namespace Graph\Curd\Encryption;
 
 class Encrypt_v5
 {

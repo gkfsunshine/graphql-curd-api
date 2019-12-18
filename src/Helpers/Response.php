@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Graph\Helpers;
+namespace Graph\Curd\Helpers;
 
 class Response
 {
